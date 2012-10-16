@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<!-- <portlet>
+		<portlet-name>collapsable-advert</portlet-name>
+		<display-name>Collapsable advert portlet</display-name>
+		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<portlet-info>
+			<title>Collapsable advert portlet</title>
+			<short-title>Collapsable advert portlet</short-title>
+			<keywords>Collapsable advert portlet</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet> -->
+	<portlet>
+		<portlet-name>collapsable-advert-portlet</portlet-name>
+		<display-name>CollapsableAdvertPortlet</display-name>
+		<portlet-class>
+			by.cnb.liferay.portlet.collapsableadvert.CollapsableAdvertPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/collapsable-advert-portlet/view.jsp</value>
+		</init-param>
+		<init-param>
+			<name>edit-template</name>
+			<value>/html/collapsable-advert-portlet/edit.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>edit</portlet-mode>
+		</supports>
+		<resource-bundle>content/Language</resource-bundle>
+		<portlet-info>
+			<title>CollapsableAdvertPortlet</title>
+			<short-title>CollapsableAdvertPortlet</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<!-- <security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref> -->
+	</portlet>
+</portlet-app>

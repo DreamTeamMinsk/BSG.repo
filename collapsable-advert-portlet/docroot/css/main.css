@@ -1,0 +1,10 @@
+.expand {
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+#img_small {
+	overflow: hidden;
+    z-index: 999;
+    cursor: pointer;
+}

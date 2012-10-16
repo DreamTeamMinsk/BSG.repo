@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.1.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_1_0.dtd">
+<service-builder
+	package-path="by.cnb.liferay.portlet.collapsableadvert">
+	<!-- <namespace>Adverts</namespace> -->
+
+	<entity name="Advert" uuid="true" local-service="true" remote-service="true">
+
+		<!-- PK fields -->
+
+		<column name="entryId" type="long" primary="true" id-type="sequence" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+		<!-- Other fields -->
+
+		<column name="name" type="String" />
+
+		<!-- Order -->
+
+		<!-- <order by="asc">
+			<order-column name="field1" />
+		</order> -->
+
+		<!-- Finder methods -->
+
+		<finder name="GroupId" return-type="Collection">
+			<finder-column name="groupId" />
+		</finder>
+	</entity>
+</service-builder>

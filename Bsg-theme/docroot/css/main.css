@@ -1,0 +1,112 @@
+@import url(base.css);
+
+@import url(application.css);
+
+@import url(layout.css);
+
+@import url(dockbar.css);
+
+@import url(navigation.css);
+
+@import url(portlet.css);
+
+@import url(forms.css);
+
+@import url(extras.css);
+
+@import url(custom.css);
+
+
+
+#nav {
+	background: #141414;
+	background: -moz-linear-gradient(top, #2C2C2C 0%, #121212 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2C2C2C),
+		color-stop(100%, #121212) );
+	background: -webkit-linear-gradient(top, #2C2C2C 0%, #121212 100%);
+	background: -o-linear-gradient(top, #2C2C2C 0%, #121212 100%);
+	background: -ms-linear-gradient(top, #2C2C2C 0%, #121212 100%);
+	background: linear-gradient(top, #2C2C2C 0%, #121212 100%);
+	bottom: 0;
+	border-top: 1px solid #343434;
+	height: 39px;
+	position: relative;
+	width: 100%;
+	z-index: 12;
+}
+
+#navbar {
+height: 40px;
+margin-top: -1px;
+}
+
+#navbar > li {
+background: #2C2C2C;
+background: -moz-linear-gradient(top, #383838 0%, #212121 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#383838), color-stop(100%,#212121));
+background: -webkit-linear-gradient(top, #383838 0%,#212121 100%);
+background: -o-linear-gradient(top, #383838 0%,#212121 100%);
+background: -ms-linear-gradient(top, #383838 0%,#212121 100%);
+background: linear-gradient(top, #383838 0%,#212121 100%);
+border-right: 1px solid #141414;
+height: 40px;
+line-height: 36px;
+min-width: 36px;
+margin: 0 -1px 0 1px;
+padding: 0 1px;
+position: relative;
+z-index: 10;
+float: left;
+list-style:none
+}
+
+#navbar > li > a {
+background: #141414;
+background: -moz-linear-gradient(top, #2C2C2C 0%, #121212 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2C2C2C), color-stop(100%,#121212));
+background: -webkit-linear-gradient(top, #2C2C2C 0%,#121212 100%);
+background: -o-linear-gradient(top, #2C2C2C 0%,#121212 100%);
+background: -ms-linear-gradient(top, #2C2C2C 0%,#121212 100%);
+background: linear-gradient(top, #2C2C2C 0%,#121212 100%);
+color: white;
+display: block;
+font-family: 'Futura Today Bold', Helvetica, Arial, sans-serif;
+font-size: 11px;
+height: 39px;
+outline: none;
+position: relative;
+text-decoration: none;
+text-shadow: 0 1px 0 black;
+text-transform: uppercase;
+z-index: 11;
+}
+
+#column-3 {
+background: #1877B6 url('../images/bsg/common/noise-trans	.png') repeat top left;
+}
+
+#column-4 {
+background: #FFF url('../images/bsg/common/noise-trans	.png') repeat top left;
+}
+
+.navigation-left{
+	width: 15%;
+	border-color: white;
+	border: medium;
+	display: table-cell;
+vertical-align: top;
+}
+.navigation-right{
+	width: 15%;
+	display: table-cell;
+vertical-align: top;
+}
+.navigation-center{
+	width: 100%;
+	display: table-cell;
+vertical-align: top;
+}
+
+
+
+
